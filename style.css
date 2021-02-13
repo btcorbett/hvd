@@ -1,0 +1,58 @@
+:root {
+  --one: #ffffff;
+  --two: #ffd1dc;
+  --three: #f0ccd4;
+  --four: #faf0f2;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+  max-height: 100vh;
+  background-color: var(--one);
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative; */
+}
+
+.main-txt {
+  width: 100%;
+  color: var(--two);
+  font-size: 150px;
+  margin: 50px auto;
+}
+
+.audio-button {
+  color: var(--three);
+  background-color: var(--four);
+  outline-style: none;
+  border: none;
+  box-shadow: 3px 8px 3px 2px #eeeeee;
+  border-radius: 25px;
+  font-size: 100px;
+  display: block;
+  width: 400px;
+  height: 150px;
+  margin: 50px auto;
+}
+
+.heart {
+  display: block;
+  width: calc(100vh / 4);
+  object-fit: contain;
+  margin: 70px auto 0;
+  position: fixed;
+  left: calc(50vw - ((100vh / 4) / 2));
+  bottom: 10px;
+}
