@@ -46,13 +46,3 @@ body {
   height: 150px;
   margin: 50px auto;
 }
-
-.heart {
-  display: block;
-  width: calc(100vh / 4);
-  object-fit: contain;
-  margin: 70px auto 0;
-  position: fixed;
-  left: calc(50vw - ((100vh / 4) / 2));
-  bottom: 10px;
-}
