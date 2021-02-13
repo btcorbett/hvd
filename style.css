@@ -35,6 +35,7 @@ body {
 
 .audio-button {
   color: var(--three);
+  font-family: 'Nunito', sans-serif;
   background-color: var(--four);
   outline-style: none;
   border: none;
